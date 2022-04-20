@@ -10,11 +10,7 @@ export const Jumbotron = () => {
 					component for calling extra attention to featured content or
 					information.
 				</p>
-				<hr classname="my-4" />
-				<p>
-					It uses utility classnamees for typography and spacing to
-					space content out within the larger container.
-				</p>
+				<p></p>
 				<p classname="lead">
 					<a
 						classname="btn btn-primary btn-lg"

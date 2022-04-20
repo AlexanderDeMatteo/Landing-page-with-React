@@ -4,7 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Navbar } from "./Navbar.jsx";
 import { Jumbotron } from "./jumbotron.jsx";
-import { Card } from "./card.jsx";
+import { Cards } from "./card.jsx";
 import { Footer } from "./footer.jsx";
 //create your first component
 const Home = () => {
@@ -12,12 +12,15 @@ const Home = () => {
 		<>
 			<div>
 				<Navbar />
-				<Footer />
 
 				<div classname="container" id="box">
 					<Jumbotron />
-					<Card />
+					<Cards />
+					<Cards />
+					<Cards />
+					<Cards />
 				</div>
+				<Footer />
 			</div>
 		</>
 	);
