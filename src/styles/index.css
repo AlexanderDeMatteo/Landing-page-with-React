@@ -10,3 +10,67 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.navbar-color{
+    background-color: rgb(59, 56, 56);
+    position: relative;
+}
+li{
+    text-decoration: none;
+}
+.nav-link{
+    color: rgb(145, 139, 139);
+}
+#bottom-home{
+    color: white;
+}
+#box{
+    margin-right: 10%;
+    margin-left: 7%;
+    background-color: blue;
+    display: flex;
+    height: 100%;
+    position: absolute;
+    display: block
+}
+.jumbotron{
+    background-color: rgb(209, 225, 240);
+    margin: 5px;
+    height: 220px;
+}
+#jumbotron-bottom{
+    background-color: rgba(0, 0, 255, 0.692);
+    text-decoration: none;
+    padding: 5px;
+    color:white;
+    border-radius: 5px;
+    display: inline-block;
+
+
+}
+#cards-box{
+    display: flex;
+    position: relative;
+    margin: 5px;
+    display: inline-flexbox;
+    background-color: white;
+    overflow-block: ;
+}
+#cards{
+    padding: 5px;
+    color: blue;
+    display:flexbox
+}
+#card-bottom{
+    background-color: rgba(0, 0, 255, 0.692);
+    text-decoration: none;
+    padding: 5px;
+    color:white;
+    border-radius: 5px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    
+}
+.footer{
+    background-color: rgb(59, 56, 56); ;
+}
